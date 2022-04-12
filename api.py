@@ -18,7 +18,7 @@ def get_not_use_interfaces_on_device(hostname: str):
     
     if device is not None:
         count = get_interface_count_clear_on_device(device)
-        return {'interfaces_count': str(count)}
+        return {'interface_count': str(count)}
     
     return None
 
